@@ -1,0 +1,15 @@
+{
+    "caption": "Volume",
+    "doc": "Sets or returns the audio volume of an audio",
+    "fields": {
+        "ACl": {
+            "caption": "Volume",
+            "default_val": 100,
+            "doc": "The value must be between 0 and 100",
+            "editor": "DynamicValue",
+            "name": "volume",
+            "rank": 0,
+            "value": "number"
+        }
+    }
+}

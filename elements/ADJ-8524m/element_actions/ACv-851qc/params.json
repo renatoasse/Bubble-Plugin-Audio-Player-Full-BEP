@@ -1,0 +1,13 @@
+{
+    "caption": "Set Track",
+    "doc": "Set Back, Next or Custom Track",
+    "fields": {
+        "ACw": {
+            "caption": "url",
+            "editor": "DynamicValue",
+            "name": "url",
+            "rank": 0,
+            "value": "file"
+        }
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "assets": {
+        "AAx": {
+            "name": "preview",
+            "url": "//dd7tel2830j4w.cloudfront.net/f1624226399846x280999646199524560/audioplayerprev.png"
+        }
+    },
+    "dependencies": {
+        "plugin_api_version": "3",
+        "use_jquery": true
+    }
+}

@@ -1,0 +1,134 @@
+{
+    "add_is_visible": true,
+    "can_fit_height": true,
+    "can_fit_width": true,
+    "category": "visual elements",
+    "default_dim": {
+        "height": 35,
+        "width": 200
+    },
+    "display": "Audio Player",
+    "events": {
+        "ACx": {
+            "caption": "Ended",
+            "doc": "When the audio reaches it's maximum length",
+            "name": "ended"
+        },
+        "ADK": {
+            "caption": "Error",
+            "doc": "If the audio file is not compatible this event is triggered",
+            "name": "error"
+        }
+    },
+    "fields": {
+        "ACy": {
+            "caption": "Audio File",
+            "doc": "Enter the audio file or the URL here.",
+            "editor": "DynamicValue",
+            "name": "url",
+            "rank": 0,
+            "value": "file"
+        },
+        "ACz": {
+            "caption": "Auto Play",
+            "default_val": true,
+            "doc": "Sets or returns whether the audio should start playing as soon as it is ready",
+            "editor": "Checkbox",
+            "name": "autoplay",
+            "rank": 1
+        },
+        "ADA": {
+            "caption": "Loop",
+            "default_val": false,
+            "doc": "Sets or returns whether the audio should start playing over again, every time it is finished",
+            "editor": "Checkbox",
+            "name": "loop",
+            "rank": 2
+        },
+        "ADB": {
+            "caption": "Slider BG Color",
+            "default_val": "rgba(245, 245, 245, 1)",
+            "editor": "Color",
+            "name": "background",
+            "rank": 3
+        },
+        "ADC": {
+            "caption": "Slider Thumb Color",
+            "default_val": "rgba(51, 181, 229, 1)",
+            "editor": "Color",
+            "name": "color",
+            "rank": 4
+        }
+    },
+    "icon": "ion-headphone",
+    "property_applications": {
+        "Background": false,
+        "MinWidth": true,
+        "resizable": true
+    },
+    "states": {
+        "ADD": {
+            "caption": "Current Time String",
+            "doc": "Current audio playing time (in mm:ss format)",
+            "initialization_code": {
+                "fn": "function(properties, context) {\nreturn \"00:00\";\n\n\n}"
+            },
+            "name": "currenttime",
+            "value": "text"
+        },
+        "ADE": {
+            "caption": "Duration String",
+            "doc": "Total audio length (in mm:ss format)",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "duration",
+            "value": "text"
+        },
+        "ADF": {
+            "caption": "Duration Value",
+            "doc": "Total audio length (in seconds)",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "durationvalue",
+            "value": "number"
+        },
+        "ADG": {
+            "caption": "Current Time Value",
+            "doc": "Current audio playing time (in seconds)",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n}"
+            },
+            "name": "currenttimevalue",
+            "value": "number"
+        },
+        "ADH": {
+            "caption": "Mute Audio?",
+            "doc": "\"On\" if the audio is muted, \"Off\" if it is unmuted",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "mute",
+            "value": "text"
+        },
+        "ADI": {
+            "caption": "Event?",
+            "doc": "It will return the current Audioplayer status. It can be \"play\", \"pause\", \"stop\", \"ended\" or \"cleared\".",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "event",
+            "value": "text"
+        },
+        "ADL": {
+            "caption": "Error",
+            "doc": "If there any errors, it will show here. It could be \"URL Empty\" or \"Load data error\".",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "error",
+            "value": "text"
+        }
+    }
+}

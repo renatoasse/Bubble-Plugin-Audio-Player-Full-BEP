@@ -1,0 +1,16 @@
+{
+    "categories": {
+        "0": "mobile",
+        "1": "media",
+        "2": "blog",
+        "3": "productivity",
+        "4": "technical"
+    },
+    "demo_page": "https://bubble-essential-plugins.bubbleapps.io/version-test/audio-player?debug_mode=true",
+    "description": "Play Audio, Music and Sound files in your Bubble application.\n\nActions:\nPlay / Pause\nMute / Unmute\nVolume\nChange Playback Rate\nSkip forward / backward\nStop\nChange track\n\n\nPlease read the documentation (in the plugin), the Bubble Editor and the example at the Service URL:\n\nEditor, documentation, step-by-step and example:\nhttps://bubble.io/page?type=page&name=audio-player&id=bubble-essential-plugins&tab=tabs-1\n\nDemo page:\nhttps://bubble-essential-plugins.bubbleapps.io/version-test/audio-player?debug_mode=true",
+    "image": "//s3.amazonaws.com/appforest_uf/f1655509284585x742338605392417900/4305621%5B1%5D.png",
+    "license": "open_source",
+    "link": "https://bubble.io/page?type=page&name=audio-player&id=bubble-essential-plugins&tab=tabs-1",
+    "name": "Audio Player Full · BEP",
+    "plugin_instructions": "Play Audio, Music and Sound files in your Bubble application.\n\nActions:\nPlay / Pause\nMute / Unmute\nVolume\nChange Playback Rate\nSkip forward / backward\nStop\nChange track\n\n\nPlease read the documentation (in the plugin), the Bubble Editor and the example at the Service URL:\n\nEditor, documentation, step-by-step and example:\nhttps://bubble.io/page?type=page&name=audio-player&id=bubble-essential-plugins&tab=tabs-1\n\nDemo page:\nhttps://bubble-essential-plugins.bubbleapps.io/version-test/audio-player?debug_mode=true"
+}

@@ -1,0 +1,13 @@
+{
+    "caption": "Skip Ahead",
+    "doc": "Forward track in seconds",
+    "fields": {
+        "ACr": {
+            "caption": "Ahead Seconds",
+            "editor": "DynamicValue",
+            "name": "seconds",
+            "rank": 0,
+            "value": "number"
+        }
+    }
+}
